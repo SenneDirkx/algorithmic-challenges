@@ -18,3 +18,6 @@ func rangeSumBST(root *TreeNode, L int, R int) int {
 	}
 	return root.Val + rangeSumBST(root.Left, L, R) + rangeSumBST(root.Right, L, R)
 }
+
+// Runtime: 90 ms (faster than 83% of online Go submissions)
+// Memory Usage: 8.1 MB (less than 87.5% of online Go submissions)
