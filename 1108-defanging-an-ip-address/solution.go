@@ -9,3 +9,6 @@ func defangIPaddr(address string) string {
     }
     return new_address
 }
+
+// Runtime: 0 ms (faster than 100% of online Go submissions)
+// Memory Usage: 1.9 MB (less than 100% of online Go submissions)
